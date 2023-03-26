@@ -1,0 +1,9 @@
+.Todo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1499px;
+    width: 1499px;
+    text-align: center;
+    color: white;
+}
