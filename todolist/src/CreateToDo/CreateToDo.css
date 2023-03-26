@@ -1,0 +1,15 @@
+.CreateToDo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 500px;
+    border: 3px solid #7B68EE;
+    border-radius: 10px;
+    background: #00008B;
+    margin-bottom: 7px;
+    color: white;
+}
+.input::placeholder {
+    transform: translateY(250px);
+}
