@@ -1,17 +1,85 @@
 .ToDoItem {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    height: 30px;
+    font-size: 17px;
+    height: 40px;
     width: 500px;
     border: 3px solid #7B68EE;
     border-radius: 10px;
     background: #00008B;
     margin-bottom: 7px;
+    padding: 5px;
+    margin-right: 40px;
+    box-sizing: border-box;
 }
-.text {
+.ToDoItem-edit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 34px;
+    width: 420px;
+    border-radius: 10px;
+    background: #00008B;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.ToDoItem-edit__input {
+    font-size: 17px;
+    height: 34px;
+    width: 420px;
+    border: 1px solid #00008B;
+    border-radius: 10px;
+    background: #00008B;
+    padding: 5px;
+    color: white;
+    box-sizing: border-box;
+}
+.ToDoItem-text {
     text-decoration: none;
+    font-size: 17px;
+    cursor: pointer;
 }
-.texts {
+.ToDoItem-text__line-through {
     text-decoration: line-through;
+    cursor: pointer;
+}
+.ToDoItem-todo__complete {
+    height: 20px;
+    width: 20px;
+    margin-bottom: 1px;
+    color: white;
+}
+.ToDoItem-todo__complete:hover {
+    color: #00F9A9;
+    cursor: pointer;
+}
+.ToDoItem-trash {
+    height: 20px;
+    width: 20px;
+    color: white;
+}
+.ToDoItem-trash:hover {
+    color: red;
+    cursor: pointer;
+}
+.ToDoItem-edit__todo {
+    height: 22px;
+    width: 20px;
+    color: white;
+}
+.ToDoItem-edit__todo:hover {
+    color: orange;
+    cursor: pointer;
+}
+.ToDoItem-edit__complete {
+    height: 20px;
+    width: 20px;
+    margin-bottom: 4px;
+    margin-right: 7px;
+    color: white;
+}
+.ToDoItem-edit__complete:hover {
+    color: #00F9A9;
+    cursor: pointer;
 }

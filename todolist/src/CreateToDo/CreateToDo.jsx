@@ -1,20 +1,25 @@
 import React from "react";
 import "./CreateToDo.css";
 import { useState } from "react";
+import { BsJournalPlus } from "react-icons/bs";
 
-const CreateToDo = ({addToDo}) => {
+const CreateToDo = ({ addToDo }) => {
   const [title, setTitle] = useState("");
 
   return (
-    <div>
+    <div className="CreateToDo">
       <input
         type="text"
-        className="CreateToDo"
+        maxLength={59}
+        className="CreateToDo-input"
         placeholder="Add a task"
         onChange={(e) => setTitle(e.target.value)}
         value={title}
       />
-      <button onClick={() => addToDo(title)}>Add a task</button>
+      <BsJournalPlus
+        className="CreateToDo-addToDo"
+        onClick={() => addToDo(title)}
+      />
     </div>
   );
 };
