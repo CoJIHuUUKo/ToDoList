@@ -46,8 +46,7 @@
 }
 .ToDoItem-todo__complete {
     height: 20px;
-    width: 20px;
-    margin-bottom: 1px;
+    width: 17px;
     color: white;
 }
 .ToDoItem-todo__complete:hover {
@@ -55,8 +54,8 @@
     cursor: pointer;
 }
 .ToDoItem-trash {
-    height: 20px;
-    width: 20px;
+    height: 19px;
+    width: 19px;
     color: white;
 }
 .ToDoItem-trash:hover {
@@ -64,7 +63,7 @@
     cursor: pointer;
 }
 .ToDoItem-edit__todo {
-    height: 22px;
+    height: 20px;
     width: 20px;
     color: white;
 }
@@ -75,7 +74,7 @@
 .ToDoItem-edit__complete {
     height: 20px;
     width: 20px;
-    margin-bottom: 4px;
+    margin-bottom: 2px;
     margin-right: 7px;
     color: white;
 }
