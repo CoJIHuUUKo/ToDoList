@@ -15,6 +15,11 @@ const CreateToDo = ({ addToDo }) => {
         placeholder="Add a task"
         onChange={(e) => setTitle(e.target.value)}
         value={title}
+        onKeyUp={(e) => {
+          if(e.key === "Enter") {
+            addToDo(title)
+          }
+        } }
       />
       <BsJournalPlus
         className="CreateToDo-addToDo"
